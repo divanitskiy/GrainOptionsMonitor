@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrainOptionsMonitor", "GrainOptionsMonitor\GrainOptionsMonitor.csproj", "{51940AE9-DC8A-49EA-82E9-903DFD37BAED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D75686F4-DB29-445A-88CF-016365947E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSilo", "tests\TestSilo\TestSilo.csproj", "{50042A04-531D-4C36-BE52-AFA2DF99C5D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainOptionsMonitor.Tests", "tests\GrainOptionsMonitor.Tests\GrainOptionsMonitor.Tests.csproj", "{D7B39BE6-6D48-4A03-BAC6-F23381080ECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51940AE9-DC8A-49EA-82E9-903DFD37BAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51940AE9-DC8A-49EA-82E9-903DFD37BAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51940AE9-DC8A-49EA-82E9-903DFD37BAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51940AE9-DC8A-49EA-82E9-903DFD37BAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50042A04-531D-4C36-BE52-AFA2DF99C5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50042A04-531D-4C36-BE52-AFA2DF99C5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50042A04-531D-4C36-BE52-AFA2DF99C5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50042A04-531D-4C36-BE52-AFA2DF99C5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B39BE6-6D48-4A03-BAC6-F23381080ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B39BE6-6D48-4A03-BAC6-F23381080ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B39BE6-6D48-4A03-BAC6-F23381080ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B39BE6-6D48-4A03-BAC6-F23381080ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50042A04-531D-4C36-BE52-AFA2DF99C5D1} = {D75686F4-DB29-445A-88CF-016365947E1F}
+		{D7B39BE6-6D48-4A03-BAC6-F23381080ECB} = {D75686F4-DB29-445A-88CF-016365947E1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06079805-B9D4-40BA-BF97-D7DD00DDEECA}
+	EndGlobalSection
+EndGlobal
