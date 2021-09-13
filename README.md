@@ -1,0 +1,2 @@
+# Oreleans GrainOptionsMonitor
+This is an Orleans extension for building a low latency distributed cache. The solution implements the `IOptionsMonitor<>` interface, is built on top of an Orleans grain, and provides both synchronous and asynchronous access to the cached data.
